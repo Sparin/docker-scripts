@@ -4,16 +4,26 @@
 
 **Container name:** dev-rdbms-sqlserver
 
-**Exposed ports:** 1433
+**Network:** Default (Bridge) </br>
+**Exposed ports:** 1433 </br>
 **Restart policy:** Always
 
-**Login:** sa
+**Login:** sa </br>
 **Password:** Pass123$
 
 ## Deploy
 
 1. Execute `setup.sh` script
 2. Execute `run.sh` script
+
+```plain
+# Windows Batch
+setup.bat && run.bat
+
+# /bin/bash
+chmod +x setup.sh && chmod +x run.sh
+./setup.sh && ./run.sh
+```
 
 ## Usage
 
