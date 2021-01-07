@@ -26,6 +26,6 @@ chmod +x setup.sh && chmod +x run.sh
 
 ## Usage
 
-1. Download [pgAdmin](https://www.pgadmin.org/download/) or deploy via docker-scripts
+1. Download [pgAdmin](https://www.pgadmin.org/download/) or deploy PgAdmin4 via [docker-scripts](https://github.com/Sparin/docker-scripts/tree/master/pgadmin4)
 2. Connect to `localhost` using `postgres` as login and `Pass123$` as password
 3. Change default password for `postgres`
